@@ -1,76 +1,71 @@
 {
-  "Post": {
-    "_": {
-      "items": 10,
-      "data": [
-        {
-          "title": "First title",
-          "body": "You can use your own data or have random values generated for you."
-        },
-        {
-          "title": "Second title",
-          "body": "The rest of the posts will have random values"
-        }
-      ]
+  "Category": {
+  "data": [
+    {
+      "categoryId": "29c7402a-707f-4e5e-9128-28c6a232d7d9",
+      "status": 30,
+      "areaId": "A0001",
+      "name": "Sữa nước",
+      "note": null,
+      "itemType": 0,
+      "image": null,
+      "code": "",
+      "sortOrder": "ZZZa",
+      "lastestUpdateTime": "2021-12-01T19:12:07.319"
     },
-    "cover": {
-      "regexp": "https://picsum\\.photos/seed/[0-9]{5}/1920/270"
+    {
+      "categoryId": "e6fae470-78d2-479b-b1c7-c080c9088623",
+      "status": 30,
+      "areaId": "A0001",
+      "name": "Bánh",
+      "note": null,
+      "itemType": 0,
+      "image": null,
+      "code": null,
+      "sortOrder": "ZZZg",
+      "lastestUpdateTime": "2021-12-01T21:29:27.711"
     },
-    "title": {
-      "loremWords": {
-        "minLength": 5,
-        "maxLength": 20
-      }
+    {
+      "categoryId": "1ea687ac-deec-4632-acd0-abd7fc8753a5",
+      "status": 30,
+      "areaId": "A0001",
+      "name": "Bột ăn dặm",
+      "note": null,
+      "itemType": 0,
+      "image": null,
+      "code": null,
+      "sortOrder": "ZZZn",
+      "lastestUpdateTime": "2021-12-01T21:29:27.789"
     },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
+    {
+      "categoryId": "055dde34-29ac-4a2c-8f4e-d7cae09cfe22",
+      "status": 30,
+      "areaId": "A0001",
+      "name": "Bột lắc",
+      "note": null,
+      "itemType": 0,
+      "image": null,
+      "code": null,
+      "sortOrder": "ZZZo",
+      "lastestUpdateTime": "2021-12-01T21:29:27.805"
     },
-    "category": {
-      "string": ["one", "two", "three"]
-    },
-    "isDraft": {
-      "boolean": {}
-    },
-    "views": {
-      "int": {
-        "min": 0,
-        "max": 1000
-      }
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    },
-    "comments": {
-      "hasMany": "Comment"
+    {
+      "categoryId": "c6e7093b-4c03-48d8-8355-9d7f910dd64b",
+      "status": 30,
+      "areaId": "A0001",
+      "name": "Sữa bột",
+      "note": null,
+      "itemType": 0,
+      "image": null,
+      "code": "",
+      "sortOrder": "ZZZZ",
+      "lastestUpdateTime": "2021-12-01T19:11:53.078"
     }
-  },
-  "Comment": {
-    "_": {
-      "items": 25
-    },
-    "email": {
-      "regexp": "[a-z]{5,10}@[a-z]{5}\\.[a-z]{2,3}"
-    },
-    "body": {
-      "loremParagraphs": {
-        "minLength": 10,
-        "maxLength": 100
-      }
-    },
-    "createdAt": {
-      "dateTime": {
-        "min": "2010-01-01T00:00:00Z",
-        "max": "2020-12-31T23:59:59Z"
-      }
-    },
-    "post": {
-      "belongsTo": "Post"
-    }
-  }
+  ],
+  "statusCode": 200,
+  "errorMessage": null,
+  "warningMessage": null,
+  "message": null,
+  "status": true
+}
 }
